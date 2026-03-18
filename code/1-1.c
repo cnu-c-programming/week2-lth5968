@@ -2,20 +2,20 @@
 
 int main()
 {
-    int var1 = 100;
+    int a = 100;
     printf("int : %d\n", a);
     printf("hex : %x\n", a);
     printf("oct : %o\n", a);
 
-    char var2 = 'c';
+    char b = 'c';
     printf("char : %c\n", b);
 
-    char* var3 = "hello world!";
+    char* c = "hello world!";
     printf("string : %s\n", c);
 
-    float var4 = 3.141592;
+    float d = 3.141592;
     printf("float : %f\n", d);
-    printf("exp : %d\n", d);
+    printf("exp : %e\n", d);
 
     return 0;
 }
