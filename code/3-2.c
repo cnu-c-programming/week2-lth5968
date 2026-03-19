@@ -9,7 +9,7 @@ int main()
         printf("a < b \n");
     }
     else {
-        printf("a >= b (a가 unsigned로 변환됨) \n");
+        printf("a >= b ???\n");
     }
 
     return 0;
