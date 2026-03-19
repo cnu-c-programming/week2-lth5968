@@ -5,7 +5,7 @@ int main()
 
     unsigned int x = 0x12345678;
 
-    unsigned char* adrr = (unsigned char*)&x;
+    unsigned char* addr = (unsigned char*)&x;
 
     printf("%x\n", *addr);
     printf("%x\n", *(addr + 1));
